@@ -1,0 +1,59 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: "Catamaran", "sans-serif";
+  text-align: center;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/desktopView.jpg");
+  repeat:no-repeat;
+  background-size: cover;
+}
+.container{
+  min-height: 100vh;
+  position:relative;
+}
+ .container__block__title{
+   font-size:2.5em;
+ }
+
+.frame{
+  border:1.5em solid #f2efe8;
+  position:fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  &__menu ul{
+    position:absolute;
+    right:0;
+    top:0;
+    background-color: #f2efe8;
+    height:56px;
+    margin-top:0;
+    li{
+      display: inline;
+      font-size:1.5em;
+      margin-left: 20px;
+      &:last-child{
+        margin-right:5px;
+      }
+    }
+  }
+}
+.container__block--description{
+  text-align: left;
+  position:absolute;
+  bottom:35%;
+  left:25%;
+}
+.container__icons{
+  position:absolute;
+  bottom:3%;
+  right:3%;
+}
