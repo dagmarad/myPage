@@ -10,25 +10,31 @@ body {
   color: #000;
   padding: 0;
   margin: 0;
-  background-image: url("../img/desktopView.jpg");
-  repeat:no-repeat;
-  background-size: cover;
+
 }
 .container{
   min-height: 100vh;
   position:relative;
 }
+.container__home{
+  background-image: url("../img/desktopView.jpg");
+  repeat:no-repeat;
+  background-size: cover;
+}
  .container__block__title{
    font-size:2.5em;
  }
 
+
 .frame{
   border:1.5em solid #f2efe8;
   position:fixed;
+  z-index:2;
   top:0;
   bottom:0;
   right:0;
   left:0;
+
   &__menu ul{
     position:absolute;
     right:0;
@@ -56,4 +62,11 @@ body {
   position:absolute;
   bottom:3%;
   right:3%;
+}
+.container__icons {
+  font-size:2.5em;
+  color:#fff;
+}
+.container__portfolio{
+  background-color: #b0aac2;
 }
