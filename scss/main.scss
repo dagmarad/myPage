@@ -24,6 +24,9 @@ body {
  .container__block__title{
    font-size:2.5em;
  }
+ .container__block__paragraph{
+   max-width:550px;
+ }
 
 
 .frame{
@@ -67,6 +70,16 @@ body {
   font-size:2.5em;
   color:#fff;
 }
-.container__portfolio{
+.container--portfolio{
   background-color: #b0aac2;
+   img{
+    width:800px;
+    height:600px;
+    position:absolute;
+    bottom:74px;
+    left:74px;
+  }
+}
+.container--contact{
+  background-color: #c2d4d8;
 }
