@@ -15,6 +15,7 @@ body {
 .container{
   min-height: 100vh;
   position:relative;
+  
 }
 .container__home{
   background-image: url("../img/desktopView.jpg");
@@ -22,7 +23,7 @@ body {
   background-size: cover;
 }
  .container__block__title{
-   font-size:2.5em;
+   font-size:2em;
  }
  .container__block__paragraph{
    max-width:550px;
@@ -47,8 +48,16 @@ body {
     margin-top:0;
     li{
       display: inline;
+      text-decoration: none;
       font-size:1.5em;
       margin-left: 20px;
+      a{
+        text-decoration: none;
+        color:#000;
+        &:hover {
+          font-weight: bold;
+        }
+      }
       &:last-child{
         margin-right:5px;
       }
@@ -72,14 +81,44 @@ body {
 }
 .container--portfolio{
   background-color: #b0aac2;
-   img{
-    width:800px;
-    height:600px;
-    position:absolute;
-    bottom:74px;
-    left:74px;
+  display:flex;
+  align-items: center;
+}
+.container--portfolio--leftcolumn{
+  background: url("../img/architekturawina.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:50em;
+  height:37.5em;
+  margin: 6%;
+
+}
+.container--portfolio--rightcolumn{
+  text-align:left;
+  max-width:360px;
+  margin-left:-35px;
+  font-size:1.25em;
+  position:relative;
+  .container__icons--portfolio{
+    font-size:2.5em;
+    color:#fff;
   }
 }
 .container--contact{
   background-color: #c2d4d8;
+}
+.fa-phone{
+  transform: rotate(90deg);
+}
+//below is code for parallax animation
+.parallax-1{
+  background: url("../img/dots.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  width:400px;
+	height:200px;
+	bottom: 5%;
+	left: 40%;
+	z-index: 3;
 }

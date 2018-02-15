@@ -16,15 +16,15 @@
 
     <div class="frame__menu">
         <ul>
-          <li>Home</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li><i class="fab fa-github"></i></li>
-          <li><i class="fab fa-linkedin-in"></i></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="http://github.com/dagmarad" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/dagmara-gruszczynska/" target="_blank"><i class="fab fa-linkedin-in"></a></i></li>
         </ul>
     </div>
   </div>
-  <div class="container container__home">
+  <div class="container container__home" id="home">
     <div class="container__block  container__block--description">
       <h1 class= "container__block__title">Hi, my name is Dagmara</h1>
       <p class="container__block__paragraph"> I am junior front-end developer
@@ -42,23 +42,37 @@
       <i class="fab fa-js"></i>
       <i class="fab fa-gulp"></i>
       <i class="fab fa-git"></i>
-
     </div>
+    <div class="parallax-1">
+    </div>  
 
   </div>
   <div class="frame--portfolio">
   </div>
-  <div class="container container--portfolio">
-    <img src="./img/architekturawina.jpg" alt="Company page">
+  <div class="container container--portfolio" id="portfolio">
+    <div class="container--portfolio--leftcolumn">
+
+  </div>
+    <div class="container--portfolio--rightcolumn">
+      <h1 class="container__block__title">Architektura Wina</h1>
+      <p class="container__block__paragraph">Company page created with Wordpress.
+       I designed the theme, customized the apperance and edited template</p>
+        <div class= "container__icons--portfolio">
+          <i class="fab fa-wordpress-simple"></i>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i><br/>
+          <button>Github source</button>
+        </div>
+    </div>
   </div>
 
   <div class="frame--contact">
   </div>
-  <div class="container container--contact">
+  <div class="container container--contact" id="contact">
     <div class="container__block  container__block--description">
       <h1 class= "container__block__title">Would you like to contact me?</h1>
-      <p class="container__block__paragraph"> Please call me at 609094679</p>
-      <p class="container__block__paragraph"> gruszczynska.dagmara@gmail.com</p>
+      <p class="container__block__paragraph"> <i class="fas fa-phone"> </i>  Please call me at 609094679</p>
+      <p class="container__block__paragraph"> <i class="fas fa-envelope"> </i>  gruszczynska.dagmara@gmail.com</p>
     </div>
   </div>
 
