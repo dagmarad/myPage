@@ -54,17 +54,19 @@ body {
       a{
         text-decoration: none;
         color:#000;
-        &:hover {
+        &:hover{
           text-decoration: underline;
-          text-underline-position: 20px below;
-
         }
       }
+
       &:last-child{
         margin-right:5px;
       }
     }
   }
+}
+.frame__menu .active{
+  color:red !important;
 }
 .container__block--description{
   text-align: left;
