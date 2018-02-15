@@ -15,7 +15,7 @@ body {
 .container{
   min-height: 100vh;
   position:relative;
-  
+
 }
 .container__home{
   background-image: url("../img/desktopView.jpg");
@@ -55,7 +55,9 @@ body {
         text-decoration: none;
         color:#000;
         &:hover {
-          font-weight: bold;
+          text-decoration: underline;
+          text-underline-position: 20px below;
+
         }
       }
       &:last-child{
@@ -111,14 +113,30 @@ body {
   transform: rotate(90deg);
 }
 //below is code for parallax animation
-.parallax-1{
-  background: url("../img/dots.png");
+.parallax{
   background-size: contain;
   background-repeat: no-repeat;
   position: fixed;
+  z-index: 3;
+}
+.parallax-1{
+  background: url("../img/dots.png");
   width:400px;
 	height:200px;
 	bottom: 5%;
 	left: 40%;
-	z-index: 3;
+}
+.parallax-2{
+  background: url("../img/ring.png");
+  width:150px;
+	height:150px;
+	bottom: 45%;
+	left: 15%;
+}
+.parallax-3{
+  background: url("../img/line.png");
+  width:400px;
+	height:30px;
+	right: 10%;
+	bottom: 25%;
 }
