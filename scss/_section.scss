@@ -28,4 +28,11 @@
   &--contact {
     background-color: #c2d4d8;
   }
+  &--contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
 }
