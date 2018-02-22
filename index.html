@@ -2,90 +2,79 @@
 <html lang="pl-PL">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700" rel="stylesheet">
-
-
-<title>Dagmara Gruszczyńska</title>
-
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Sumana:400,700&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:500">
+  <title>Dagmara Gruszczyńska</title>
 </head>
 <body>
-  <div class="frame">
-
-    <div class="frame__menu">
-        <ul>
-          <li><a class = "frame__menu--home" href="#home">Home</a></li>
-          <li><a class = "frame__menu--portfolio" href="#portfolio">Portfolio</a></li>
-          <li><a class = "frame__menu--contact" href="#contact">Contact</a></li>
-          <li><a href="http://github.com/dagmarad" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/dagmara-gruszczynska/" target="_blank"><i class="fab fa-linkedin-in"></a></i></li>
-        </ul>
-    </div>
-  </div>
-  <div class="container container__home" id="home">
-    <div class="container__block  container__block--description">
-      <h1 class= "container__block__title">Hi, my name is Dagmara</h1>
-      <p class="container__block__paragraph"> I am junior front-end developer
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="#portfolio">Portfolio</a></li>
+    <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+    <li class="menu__item"><a class="menu__link menu__link--icon menu__link--github" href="http://github.com/dagmarad" target="_blank"><i class="fab fa-github"></i></a></li>
+    <li class="menu__item"><a class="menu__link menu__link--icon menu__link--linkedin" href="https://www.linkedin.com/in/dagmara-gruszczynska/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+  </ul>
+  <ul class="icons icons--fixed">
+    <li class="icons__item"><i class="fab fa-wordpress-simple"></i></li>
+    <li class="icons__item"><i class="fab fa-react"></i></li>
+    <li class="icons__item"><i class="fab fa-html5"></i></li>
+    <li class="icons__item"><i class="fab fa-css3-alt"></i></li>
+    <li class="icons__item"><i class="fab fa-sass"></i></li>
+    <li class="icons__item"><i class="fab fa-js"></i></li>
+    <li class="icons__item"><i class="fab fa-gulp"></i></li>
+    <li class="icons__item"><i class="fab fa-git"></i></li>
+  </ul>
+  
+  <div class="parallax parallax-1"></div>
+  <div class="parallax parallax-2"></div>
+  <div class="parallax parallax-3"></div>
+    
+  <div class="section section--home" id="home">
+    <div class="section__content">
+      <h1 class="title">Hi, my name is Dagmara</h1>
+      <p class="description"> I am junior front-end developer
         specializing in Wordpress and React.</p>
-      <p class="container__block__paragraph">I can code nice, responsive websites in HTML5 and CSS3.
+      <p class="description">I can code nice, responsive websites in HTML5 and CSS3.<br/>
       I write Vanilla JS and jQuery. I make use of Gulp, Webpack and Git.<br/>
       Check out my sample projects!</p>
     </div>
-    <div class= "container__icons">
-      <i class="fab fa-wordpress-simple"></i>
-      <i class="fab fa-react"></i>
-      <i class="fab fa-html5"></i>
-      <i class="fab fa-css3-alt"></i>
-      <i class="fab fa-sass"></i>
-      <i class="fab fa-js"></i>
-      <i class="fab fa-gulp"></i>
-      <i class="fab fa-git"></i>
-    </div>
-      <div class="parallax parallax-1"></div>
-      <div class="parallax parallax-2"></div>
-      <div class="parallax parallax-3"></div>
+    <a class="section__scroll" href="#portfolio">
+      <i class="fas fa-chevron-down"></i>
+    </a>
   </div>
-  <div class="frame--portfolio">
-  </div>
-  <div class="container container--portfolio" id="portfolio">
-    <div class="container--portfolio--leftcolumn">
-
-  </div>
-    <div class="container--portfolio--rightcolumn">
-      <h1 class="container__block__title">Architektura Wina</h1>
-      <p class="container__block__paragraph">Company page created with Wordpress.
-       I designed the theme, customized the apperance and edited template</p>
-        <div class= "container__icons--portfolio">
-          <i class="fab fa-wordpress-simple"></i>
-          <i class="fab fa-html5"></i>
-          <i class="fab fa-css3-alt"></i><br/>
-          <button>Github source</button>
+  
+  <div class="section section--portfolio" id="portfolio">
+    <ul class="portfolio">
+      <li class="portfolio__item">
+        <div class="portfolio__item__image">
+          <a href="http://architekturawina.pl" target="_blank"><img src="img/architekturawina.jpg" alt="Architektura Wina"></a>
         </div>
+        <div class="portfolio__item__description">
+          <h1 class="title">Architektura Wina</h1>
+          <p class="description">Company page created with Wordpress.
+           I designed the theme, customized the apperance and edited template</p>
+            <ul class= "icons">
+              <li class="icons__item"><i class="fab fa-wordpress-simple"></i></li>
+              <li class="icons__item"><i class="fab fa-html5"></i></li>
+              <li class="icons__item"><i class="fab fa-css3-alt"></i></li>
+            </ul>
+            <a href="#" target="_blank">Github source</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section section--contact" id="contact">
+    <div class="section__block  section__block--description">
+      <h1 class="section__block__title">Would you like to contact me?</h1>
+      <p class="section__block__paragraph"> <i class="fas fa-phone"> </i>  Please call me at 609094679</p>
+      <p class="section__block__paragraph"> <i class="fas fa-envelope"> </i>  gruszczynska.dagmara@gmail.com</p>
     </div>
   </div>
 
-  <div class="frame--contact">
-  </div>
-  <div class="container container--contact" id="contact">
-    <div class="container__block  container__block--description">
-      <h1 class= "container__block__title">Would you like to contact me?</h1>
-      <p class="container__block__paragraph"> <i class="fas fa-phone"> </i>  Please call me at 609094679</p>
-      <p class="container__block__paragraph"> <i class="fas fa-envelope"> </i>  gruszczynska.dagmara@gmail.com</p>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/app-parallax.js"></script>
+  <script src="js/font-awesome.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

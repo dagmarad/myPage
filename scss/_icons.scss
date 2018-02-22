@@ -1,0 +1,18 @@
+.icons {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: $white;
+    &__item {
+      display: inline-block;
+      margin: 0 0.25rem;
+    }
+    &--fixed {
+      position:absolute;
+      bottom:2.5rem;
+      right:2.5rem;
+    }
+}
+
+.fa-phone{
+  transform: rotate(90deg);
+}

@@ -1,0 +1,28 @@
+.parallax{
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 3;
+}
+.parallax-1{
+  background: url("../img/dots.png");
+  width:400px;
+	height:200px;
+	bottom: 5%;
+	left: 40%;
+}
+.parallax-2{
+  background: url("../img/ring.png");
+  width:150px;
+	height:150px;
+	top: 0;
+	left: 50%;
+  margin-left: -600px;
+}
+.parallax-3{
+  background: url("../img/line.png");
+  width:250px;
+	height:30px;
+	right: 10%;
+	bottom: 25%;
+}

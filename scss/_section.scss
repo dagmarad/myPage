@@ -1,0 +1,32 @@
+.section {
+  min-height: 100vh;
+  position:relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__content {
+    max-width: 92vw;
+    width: 960px;
+    margin: auto;
+  }
+  &--home &__content {
+    padding-top: 16em;
+  }
+  &__scroll {
+    margin: auto;
+    color: $white;
+    font-size: 3em;
+    opacity: 0;
+    animation: pulse 1.5s linear infinite;
+  }
+
+  &--home &__title {
+    padding-top: 40vh;
+  }
+  &--portfolio {
+    background-color: #b0aac2;
+  }
+  &--contact {
+    background-color: #c2d4d8;
+  }
+}
