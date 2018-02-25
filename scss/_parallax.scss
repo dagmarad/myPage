@@ -1,6 +1,6 @@
 .parallax {
     background: url("../img/parallax.png") no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: 1;
 
     &--dots {
@@ -21,83 +21,83 @@
     }
     &--1 {
         background-position: 0 0;
-        top: 1000px;
-        left: -200px;
+        top: 50vh;
+        left: 60vw;
     }
     &--2 {
         background-position: -500px 0;
-        top: 500px;
-        left: 1200px;
+        top: 50vh;
+         left: 10vw;
     }
     &--3 {
         background-position: -650px 0;
-        top: 80px;
-        left: 40px;
+        top: 40vh;
+        left: 40vw;
     }
     &--4 {
         background-position: -1010px 0;
-        top: 1010px;
-        left: 1200px;
+        top: 660vh;
+        left: 80vw;
     }
-    &--5 {
+   &--5 {
         background-position: 0 -300px;
-        top: 60px;
-        left: 200px;
-    }
+        top: 560vh;
+        left: 50vw;
+    } 
     &--6 {
         background-position: -500px -300px;
-        top: 190px;
-        left: 500px;
+        top: 390vh;
+        left: 20vw;
     }
     &--7 {
         background-position: -650px -300px;
-        top: 900px;
-        left: 1300px;
+        top: 230vh;
+        left: 13vw;
     }
     &--8 {
         background-position: -1010px -300px;
-        top: -5000px;
-        left: 1200px;
+        top:  150vh;
+        left: 12vw;
     }
     &--9 {
         background-position: 0 -600px;
-        top: -111450px;
-        left: -200px;
+        top:  260vh;
+        left: 20vw;
     }
     &--10 {
         background-position: -500px -600px;
-        top: -55555px;
-        left: 300px;
+        top:  150vh;
+        left: 65vw;
     }
     &--11 {
         background-position: -650px -600px;
-        top: 1005px;
-        left: 200px;
+        top: 380vh;
+        left: 60vw;
     }
     &--12 {
         background-position: -1010px -600px;
-        top: 100px;
-        left: 200px;
+        top: 579vh;
+        left: 5vw;
     }
     &--13 {
         background-position: 0 -900px;
-        top: 32px;
-        left: 200px;
-    }
+        top: 820vh;
+        left: 60vw
+}
     &--14 {
         background-position: -500px -900px;
-        top: 870px;
-        left: 450px;
+        top: 790vh;
+        left: 75vw
     }
     &--15 {
         background-position: -650px -900px;
-        top: 650px;
-        left: -20px;
+        top: 550vh;
+        left: 40vw;
     }
     &--16 {
         background-position: -1010px -900px;
-        top: 1080px;
-        left: -20px;
+        top: 750vh;
+        left: 70vw;
     }
 }
 

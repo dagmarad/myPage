@@ -1,8 +1,9 @@
 var Parallax = {
     parrallaxes: [document.querySelectorAll('.parallax--dots'),
                   document.querySelectorAll('.parallax--circle'),
-                  document.querySelectorAll('.parallax--triangles'),
+                  document.querySelectorAll('.parallax--traingles'),
                   document.querySelectorAll('.parallax--hart')],
+    
     scroll: function() {
         var scrolled = document.documentElement.scrollTop;
         //here we move the divs

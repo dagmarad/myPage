@@ -10,6 +10,7 @@
 
     }
     &__outer-link{
+        position:relative;
         height: 2.5em;
         margin-top: 2em;
         background-color:#dbe9d8;
@@ -26,7 +27,6 @@
     }
     &--home &__content {
             padding-top: 8em;
-            z-index: 2;
     }
     &--portfolio {
         background-color: #b0aac2;
@@ -37,6 +37,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
 
     }
 }
