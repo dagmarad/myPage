@@ -6,6 +6,7 @@ var Parallax = {
     scroll: function() {
         var scrolled = document.documentElement.scrollTop;
         //here we move the divs
+        console.log(scrolled);
         this.parrallaxes[0].forEach((parallax) => parallax.style.marginTop = 0 - (scrolled * 0.3) + 'px');
         this.parrallaxes[1].forEach((parallax) => parallax.style.marginTop = 0 - (scrolled * 0.4) + 'px');
         this.parrallaxes[2].forEach((parallax) => parallax.style.marginTop = 0 - (scrolled * 0.5) + 'px');

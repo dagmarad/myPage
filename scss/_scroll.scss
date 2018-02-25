@@ -1,0 +1,14 @@
+.scroll {
+    position: fixed;
+    display: block;
+    bottom: 2rem;
+    left: 50%;
+    margin-left: -1.5rem;
+    width: 3rem;
+    color: $white;
+    font-size: 3rem;
+    opacity: 0;
+    text-align: center;
+    animation: pulse 1.5s linear infinite;
+    z-index: 0;
+}

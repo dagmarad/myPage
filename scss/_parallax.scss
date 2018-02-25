@@ -1,28 +1,103 @@
-.parallax{
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: fixed;
-  z-index: 3;
+.parallax {
+    background: url("../img/parallax.png") no-repeat;
+    position: fixed;
+    z-index: 1;
+
+    &--dots {
+        width: 500px;
+        height: 260px;
+    }
+    &--circle {
+        width: 150px;
+        height: 150px;
+    }
+    &--traingles {
+        width: 360px;
+        height: 80px;
+    }
+    &--hart {
+        width: 290px;
+        height: 30px;
+    }
+    &--1 {
+        background-position: 0 0;
+        top: 1000px;
+        left: -200px;
+    }
+    &--2 {
+        background-position: -500px 0;
+        top: 500px;
+        left: 1200px;
+    }
+    &--3 {
+        background-position: -650px 0;
+        top: 80px;
+        left: 40px;
+    }
+    &--4 {
+        background-position: -1010px 0;
+        top: 1010px;
+        left: 1200px;
+    }
+    &--5 {
+        background-position: 0 -300px;
+        top: 60px;
+        left: 200px;
+    }
+    &--6 {
+        background-position: -500px -300px;
+        top: 190px;
+        left: 500px;
+    }
+    &--7 {
+        background-position: -650px -300px;
+        top: 900px;
+        left: 1300px;
+    }
+    &--8 {
+        background-position: -1010px -300px;
+        top: -5000px;
+        left: 1200px;
+    }
+    &--9 {
+        background-position: 0 -600px;
+        top: -111450px;
+        left: -200px;
+    }
+    &--10 {
+        background-position: -500px -600px;
+        top: -55555px;
+        left: 300px;
+    }
+    &--11 {
+        background-position: -650px -600px;
+        top: 1005px;
+        left: 200px;
+    }
+    &--12 {
+        background-position: -1010px -600px;
+        top: 100px;
+        left: 200px;
+    }
+    &--13 {
+        background-position: 0 -900px;
+        top: 32px;
+        left: 200px;
+    }
+    &--14 {
+        background-position: -500px -900px;
+        top: 870px;
+        left: 450px;
+    }
+    &--15 {
+        background-position: -650px -900px;
+        top: 650px;
+        left: -20px;
+    }
+    &--16 {
+        background-position: -1010px -900px;
+        top: 1080px;
+        left: -20px;
+    }
 }
-.parallax-1{
-  background: url("../img/dots.png");
-  width:400px;
-	height:200px;
-	bottom: 5%;
-	left: 40%;
-}
-.parallax-2{
-  background: url("../img/ring.png");
-  width:150px;
-	height:150px;
-	top: 0;
-	left: 50%;
-  margin-left: -600px;
-}
-.parallax-3{
-  background: url("../img/line.png");
-  width:250px;
-	height:30px;
-	right: 10%;
-	bottom: 25%;
-}
+
