@@ -27,6 +27,10 @@
     }
   }  
 }
+button{
+    height: 2.5em;
+    margin-top: 2em;
+}
 @media screen and (max-width: 975px) {
 .portfolio__item {
   &__image{
