@@ -15,7 +15,11 @@ body {
   font-size:2em;
 }
 @media screen and (max-width: 480px) {
-  html {
-    font-size: 1em;
-  }
+
+ .portfolio__item__description .title, .title {
+  font-size: 1.5em;
+}
+ .portfolio__item .description, .description {
+  font-size: 1em;
+    }
 }
