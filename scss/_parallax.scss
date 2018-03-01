@@ -2,6 +2,7 @@
     background: url("../img/parallax.png") no-repeat;
     position: absolute;
     z-index: 1;
+    box-sizing: border-box;
 
     &--dots {
         width: 500px;
@@ -21,8 +22,8 @@
     }
     &--1 {
         background-position: 0 0;
-        top: 50vh;
-        left: 50vw;
+        top:  820vh;
+        left: 20vw;
     }
     &--2 {
         background-position: -500px 0;
@@ -31,12 +32,12 @@
     }
     &--3 {
         background-position: -650px 0;
-        top: 20vh;
-        left: 40vw;
+        top: 920vh;
+        left: 66vw;
     }
     &--4 {
         background-position: -1010px 0;
-        top: 860vh;
+        top: 20vh;
         left: 50vw;
     }
    &--5 {
@@ -61,8 +62,8 @@
     }
     &--9 {
         background-position: 0 -600px;
-        top:  260vh;
-        left: 20vw;
+        top:  50vh;
+        left: 50vw;
     }
     &--10 {
         background-position: -500px -600px;
@@ -71,7 +72,7 @@
     }
     &--11 {
         background-position: -650px -600px;
-        top: 380vh;
+        top: 490vh;
         left: 60vw;
     }
     &--12 {
@@ -81,8 +82,8 @@
     }
     &--13 {
         background-position: 0 -900px;
-        top: 820vh;
-        left: 50vw
+        top: 320vh;
+        left: 66vw;
 }
     &--14 {
         background-position: -500px -900px;
@@ -100,4 +101,8 @@
         left: 70vw;
     }
 }
-
+@media screen and (max-width: 800px) {
+    .parallax{
+        display:none;
+    }
+}
